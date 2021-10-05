@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: iransans;
+    src: url(/IRANSansWeb.woff);
+}
+
+body{
+    font-family: iransans;
+    background: rgb(236,172,147);
+background: linear-gradient(140deg, rgba(236,172,147,1) 15%, rgba(107,37,214,1) 85%); 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+.container {
+    background-color: rgba(255, 255, 255, .05);  
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 10px #444;
+    width: 900px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    position: relative;
+    
+    border-top: 1px solid  rgba(255, 255, 255, 0.469);
+    border-left: 1px solid rgba(255, 255, 255, 0.469);
+ }
+ .drops{
+    background-color: rgba(255, 255, 255, .05);  
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 10px #444;
+    border-radius: 10px;
+    position: absolute;
+    
+    border-top: 1px solid  rgba(255, 255, 255, 0.469);
+    border-left: 1px solid rgba(255, 255, 255, 0.469);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .drop-box-1{
+     width: 100px;
+     height: 100px;
+     top: -42px;
+     left: -56px;
+ }
+ .drop-box-2{
+     width: 150px;
+     height: 150px;
+     right: -120px;
+    bottom: -100px;
+ }
+ .drop-box-3{
+     width: 80px;
+     height: 80px;
+     bottom: -35px;
+     left: -43px;
+ }
+ 
+ .img-bio{
+    background-color: rgba(255, 255, 255, .05);  
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 10px #444;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    border-top: 1px solid  rgba(255, 255, 255, 0.469);
+    border-left: 1px solid rgba(255, 255, 255, 0.469);
+    padding: 5px;
+ }
+ .img-bio img{
+     display: block;
+     width: 100%;
+     border-radius: 10px;
+     opacity: 0.9;
+ }
+ .bio{
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     height: 150px;
+ }
+ .bio i{
+    color: rgba(17, 16, 16, 0.483);
+
+ }
+ .bio a{
+     color: rgb(35, 33, 33);
+ }
+
+ .text-info{
+     width: 500px;
+     height: 600px;
+     text-align: justify;
+     position: absolute;
+     left: 20px;
+     top: 70px;
+     color: rgb(35, 33, 33);
+
+
+ }
